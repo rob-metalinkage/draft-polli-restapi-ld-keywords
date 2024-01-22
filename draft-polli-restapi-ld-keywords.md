@@ -401,9 +401,8 @@ annotated with `@context` and `@type`:
 this specification is limited by the possibilities
 of [Section 6.1 of JSON-LD-11](https://www.w3.org/TR/json-ld11/#interpreting-json-as-json-ld).
 On the other hand, since this approach
-delegates almost all the processing to of JSON-LD,
-as long as JSON-LD evolves
-it will cover further use cases.
+delegates almost all the processing to JSON-LD,
+any backwards compatible evolution of JSON-LD may cover additional cases.
 
 ## Disjoint with JSON-LD {#int-no-jsonld}
 
@@ -418,8 +417,8 @@ and use a proper media type
 since Linked Data processing and interpretation
 requires further checks.
 
-If these applications describes messages using [JSONSCHEMA] or [OAS],
-they needs to
+If these applications describe messages using [JSONSCHEMA] or [OAS],
+they need to
 process them with a JSON-LD processor
 and declare all required properties
 in the schema - like in the example below.
